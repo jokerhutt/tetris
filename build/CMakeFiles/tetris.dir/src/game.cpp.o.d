@@ -1,5 +1,6 @@
-CMakeFiles/tetris.dir/src/block.cpp.o: \
-  /Users/davidglogowski/jworkbench/tetris-cpp/src/block.cpp \
+CMakeFiles/tetris.dir/src/game.cpp.o: \
+  /Users/davidglogowski/jworkbench/tetris-cpp/src/game.cpp \
+  /Users/davidglogowski/jworkbench/tetris-cpp/src/game.h \
   /Users/davidglogowski/jworkbench/tetris-cpp/src/block.h \
   /Users/davidglogowski/jworkbench/tetris-cpp/src/colors.h \
   /opt/homebrew/include/raylib.h \
@@ -966,4 +967,6 @@ CMakeFiles/tetris.dir/src/block.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/print \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/unistd.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/map \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__tree
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__tree \
+  /Users/davidglogowski/jworkbench/tetris-cpp/src/blocks.cpp \
+  /Users/davidglogowski/jworkbench/tetris-cpp/src/grid.h

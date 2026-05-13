@@ -1,7 +1,7 @@
-#include "block.h"
-#include "blocks.cpp"
-#include "grid.h"
+#include "game.h"
 #include <raylib.h>
+
+int tick = 0;
 
 int main() {
 
@@ -10,17 +10,23 @@ int main() {
   InitWindow(300, 600, "raylib Tetris");
   SetTargetFPS(60);
 
-  Grid grid = Grid();
-  grid.Print();
-
-  LBlock lBlock = LBlock();
+  Game game = Game();
 
   while (WindowShouldClose() == false) {
 
+    game.ProcessInput();
+
+    if (tick <= 10) {
+      tick++;
+    } else {
+      game.Process();
+      tick = 0;
+    }
+
     BeginDrawing();
     ClearBackground(darkBlue);
-    grid.Draw();
-    lBlock.Draw(1, 1);
+
+    game.Draw();
 
     EndDrawing();
   }

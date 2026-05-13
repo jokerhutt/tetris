@@ -1,4 +1,5 @@
 #pragma once
+#include "position.h"
 #include <raylib.h>
 #include <vector>
 
@@ -8,6 +9,10 @@ public:
   void Initialize();
   void Print();
   void Draw();
+  void PlaceBlock(std::vector<Position> positions, int colorId);
+  bool IsCellOutside(int row, int col);
+  bool IsCellEmpty(int row, int col);
+  bool IsAtBottom(int row, int col);
   int grid[20][10];
 
 private:

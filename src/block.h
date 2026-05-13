@@ -1,6 +1,7 @@
 #pragma once
 #include "colors.h"
 #include "position.h"
+#include <iostream>
 #include <map>
 
 class Block {
@@ -10,7 +11,10 @@ public:
   int id;
   void Draw(int offsetX, int offsetY);
   std::map<int, std::vector<Position>> cells;
-  void Move(int rows, int cols);
+  void MoveDown(int rows, int cols);
+  void PrintPosition();
+  void Rotate();
+  void UndoRotation();
   std::vector<Position> GetCellPositions();
 
 private:

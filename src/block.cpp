@@ -8,7 +8,7 @@ Block::Block() {
   columnOffset = 0;
 };
 
-void Block::Move(int rows, int cols) {
+void Block::MoveDown(int rows, int cols) {
   rowOffset += rows;
   columnOffset += cols;
 }
@@ -20,6 +20,34 @@ void Block::Draw(int offsetX, int offsetY) {
                   item.row * cellSize + offsetY, cellSize - 1, cellSize - 1,
                   colors[id]);
   }
+}
+
+void Block::Rotate() {
+
+  if (rotationState == 3) {
+    rotationState = 0;
+  } else {
+    rotationState++;
+  }
+}
+
+void Block::UndoRotation() {
+  if (rotationState == 0) {
+    rotationState = 3;
+  } else {
+    rotationState--;
+  }
+}
+
+void Block::PrintPosition() {
+
+  std::vector<Position> tiles = GetCellPositions();
+
+  std::cout << "POSITION: " << std::endl;
+  for (Position pos : tiles) {
+    std::cout << "| X: " << pos.row << " Y: " << pos.column << " | \n";
+  }
+  std::cout << "================" << std::endl;
 }
 
 std::vector<Position> Block::GetCellPositions() {

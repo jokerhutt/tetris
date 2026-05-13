@@ -14,6 +14,7 @@ add_executable(tetris
     src/colors.cpp
     src/block.cpp
     src/blocks.cpp
+    src/game.cpp
 )
 
 target_link_libraries(tetris raylib)

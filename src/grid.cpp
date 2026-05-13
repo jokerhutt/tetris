@@ -20,6 +20,35 @@ void Grid::Initialize() {
   }
 }
 
+void Grid::PlaceBlock(std::vector<Position> positions, int colorId) {
+
+  for (Position pos : positions) {
+    grid[pos.row][pos.column] = colorId;
+  }
+}
+
+bool Grid::IsCellOutside(int row, int col) {
+  if (row <= 0 || row >= numRows || col <= 0 || col >= numCols) {
+    return true;
+  }
+  return false;
+}
+
+bool Grid::IsCellEmpty(int row, int col) { return grid[row][col] == 0; }
+
+bool Grid::IsAtBottom(int row, int col) {
+  int nextRow = row + 1;
+  if (nextRow == numRows) {
+    return true;
+  }
+
+  if (grid[nextRow][col] != 0) {
+    return true;
+  }
+
+  return false;
+}
+
 std::vector<Color> Grid::GetCellColors() {
   return {darkGrey, green, red, orange, yellow, purple, cyan, blue};
 };

@@ -5,6 +5,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/tetris.dir/src/blocks.cpp.o.d"
   "CMakeFiles/tetris.dir/src/colors.cpp.o"
   "CMakeFiles/tetris.dir/src/colors.cpp.o.d"
+  "CMakeFiles/tetris.dir/src/game.cpp.o"
+  "CMakeFiles/tetris.dir/src/game.cpp.o.d"
   "CMakeFiles/tetris.dir/src/grid.cpp.o"
   "CMakeFiles/tetris.dir/src/grid.cpp.o.d"
   "CMakeFiles/tetris.dir/src/main.cpp.o"

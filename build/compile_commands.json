@@ -34,5 +34,11 @@
   "command": "/usr/bin/c++  -I/opt/homebrew/include -std=gnu++20 -arch arm64 -o CMakeFiles/tetris.dir/src/blocks.cpp.o -c /Users/davidglogowski/jworkbench/tetris-cpp/src/blocks.cpp",
   "file": "/Users/davidglogowski/jworkbench/tetris-cpp/src/blocks.cpp",
   "output": "CMakeFiles/tetris.dir/src/blocks.cpp.o"
+},
+{
+  "directory": "/Users/davidglogowski/jworkbench/tetris-cpp/build",
+  "command": "/usr/bin/c++  -I/opt/homebrew/include -std=gnu++20 -arch arm64 -o CMakeFiles/tetris.dir/src/game.cpp.o -c /Users/davidglogowski/jworkbench/tetris-cpp/src/game.cpp",
+  "file": "/Users/davidglogowski/jworkbench/tetris-cpp/src/game.cpp",
+  "output": "CMakeFiles/tetris.dir/src/game.cpp.o"
 }
 ]
