@@ -86,19 +86,19 @@ CMakeFiles/tetris.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/tetris.dir/src/main.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/davidglogowski/jworkbench/tetris-cpp/src/main.cpp -o CMakeFiles/tetris.dir/src/main.cpp.s
 
-CMakeFiles/tetris.dir/src/ball.cpp.o: CMakeFiles/tetris.dir/flags.make
-CMakeFiles/tetris.dir/src/ball.cpp.o: /Users/davidglogowski/jworkbench/tetris-cpp/src/ball.cpp
-CMakeFiles/tetris.dir/src/ball.cpp.o: CMakeFiles/tetris.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/davidglogowski/jworkbench/tetris-cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/tetris.dir/src/ball.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tetris.dir/src/ball.cpp.o -MF CMakeFiles/tetris.dir/src/ball.cpp.o.d -o CMakeFiles/tetris.dir/src/ball.cpp.o -c /Users/davidglogowski/jworkbench/tetris-cpp/src/ball.cpp
+CMakeFiles/tetris.dir/src/position.cpp.o: CMakeFiles/tetris.dir/flags.make
+CMakeFiles/tetris.dir/src/position.cpp.o: /Users/davidglogowski/jworkbench/tetris-cpp/src/position.cpp
+CMakeFiles/tetris.dir/src/position.cpp.o: CMakeFiles/tetris.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/davidglogowski/jworkbench/tetris-cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/tetris.dir/src/position.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tetris.dir/src/position.cpp.o -MF CMakeFiles/tetris.dir/src/position.cpp.o.d -o CMakeFiles/tetris.dir/src/position.cpp.o -c /Users/davidglogowski/jworkbench/tetris-cpp/src/position.cpp
 
-CMakeFiles/tetris.dir/src/ball.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/tetris.dir/src/ball.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/davidglogowski/jworkbench/tetris-cpp/src/ball.cpp > CMakeFiles/tetris.dir/src/ball.cpp.i
+CMakeFiles/tetris.dir/src/position.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/tetris.dir/src/position.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/davidglogowski/jworkbench/tetris-cpp/src/position.cpp > CMakeFiles/tetris.dir/src/position.cpp.i
 
-CMakeFiles/tetris.dir/src/ball.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/tetris.dir/src/ball.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/davidglogowski/jworkbench/tetris-cpp/src/ball.cpp -o CMakeFiles/tetris.dir/src/ball.cpp.s
+CMakeFiles/tetris.dir/src/position.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/tetris.dir/src/position.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/davidglogowski/jworkbench/tetris-cpp/src/position.cpp -o CMakeFiles/tetris.dir/src/position.cpp.s
 
 CMakeFiles/tetris.dir/src/grid.cpp.o: CMakeFiles/tetris.dir/flags.make
 CMakeFiles/tetris.dir/src/grid.cpp.o: /Users/davidglogowski/jworkbench/tetris-cpp/src/grid.cpp
@@ -128,23 +128,55 @@ CMakeFiles/tetris.dir/src/colors.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/tetris.dir/src/colors.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/davidglogowski/jworkbench/tetris-cpp/src/colors.cpp -o CMakeFiles/tetris.dir/src/colors.cpp.s
 
+CMakeFiles/tetris.dir/src/block.cpp.o: CMakeFiles/tetris.dir/flags.make
+CMakeFiles/tetris.dir/src/block.cpp.o: /Users/davidglogowski/jworkbench/tetris-cpp/src/block.cpp
+CMakeFiles/tetris.dir/src/block.cpp.o: CMakeFiles/tetris.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/davidglogowski/jworkbench/tetris-cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/tetris.dir/src/block.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tetris.dir/src/block.cpp.o -MF CMakeFiles/tetris.dir/src/block.cpp.o.d -o CMakeFiles/tetris.dir/src/block.cpp.o -c /Users/davidglogowski/jworkbench/tetris-cpp/src/block.cpp
+
+CMakeFiles/tetris.dir/src/block.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/tetris.dir/src/block.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/davidglogowski/jworkbench/tetris-cpp/src/block.cpp > CMakeFiles/tetris.dir/src/block.cpp.i
+
+CMakeFiles/tetris.dir/src/block.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/tetris.dir/src/block.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/davidglogowski/jworkbench/tetris-cpp/src/block.cpp -o CMakeFiles/tetris.dir/src/block.cpp.s
+
+CMakeFiles/tetris.dir/src/blocks.cpp.o: CMakeFiles/tetris.dir/flags.make
+CMakeFiles/tetris.dir/src/blocks.cpp.o: /Users/davidglogowski/jworkbench/tetris-cpp/src/blocks.cpp
+CMakeFiles/tetris.dir/src/blocks.cpp.o: CMakeFiles/tetris.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/davidglogowski/jworkbench/tetris-cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/tetris.dir/src/blocks.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tetris.dir/src/blocks.cpp.o -MF CMakeFiles/tetris.dir/src/blocks.cpp.o.d -o CMakeFiles/tetris.dir/src/blocks.cpp.o -c /Users/davidglogowski/jworkbench/tetris-cpp/src/blocks.cpp
+
+CMakeFiles/tetris.dir/src/blocks.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/tetris.dir/src/blocks.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/davidglogowski/jworkbench/tetris-cpp/src/blocks.cpp > CMakeFiles/tetris.dir/src/blocks.cpp.i
+
+CMakeFiles/tetris.dir/src/blocks.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/tetris.dir/src/blocks.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/davidglogowski/jworkbench/tetris-cpp/src/blocks.cpp -o CMakeFiles/tetris.dir/src/blocks.cpp.s
+
 # Object files for target tetris
 tetris_OBJECTS = \
 "CMakeFiles/tetris.dir/src/main.cpp.o" \
-"CMakeFiles/tetris.dir/src/ball.cpp.o" \
+"CMakeFiles/tetris.dir/src/position.cpp.o" \
 "CMakeFiles/tetris.dir/src/grid.cpp.o" \
-"CMakeFiles/tetris.dir/src/colors.cpp.o"
+"CMakeFiles/tetris.dir/src/colors.cpp.o" \
+"CMakeFiles/tetris.dir/src/block.cpp.o" \
+"CMakeFiles/tetris.dir/src/blocks.cpp.o"
 
 # External object files for target tetris
 tetris_EXTERNAL_OBJECTS =
 
 tetris: CMakeFiles/tetris.dir/src/main.cpp.o
-tetris: CMakeFiles/tetris.dir/src/ball.cpp.o
+tetris: CMakeFiles/tetris.dir/src/position.cpp.o
 tetris: CMakeFiles/tetris.dir/src/grid.cpp.o
 tetris: CMakeFiles/tetris.dir/src/colors.cpp.o
+tetris: CMakeFiles/tetris.dir/src/block.cpp.o
+tetris: CMakeFiles/tetris.dir/src/blocks.cpp.o
 tetris: CMakeFiles/tetris.dir/build.make
 tetris: CMakeFiles/tetris.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/davidglogowski/jworkbench/tetris-cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable tetris"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/davidglogowski/jworkbench/tetris-cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable tetris"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/tetris.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

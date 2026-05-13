@@ -1,5 +1,5 @@
-CMakeFiles/tetris.dir/src/main.cpp.o: \
-  /Users/davidglogowski/jworkbench/tetris-cpp/src/main.cpp \
+CMakeFiles/tetris.dir/src/blocks.cpp.o: \
+  /Users/davidglogowski/jworkbench/tetris-cpp/src/blocks.cpp \
   /Users/davidglogowski/jworkbench/tetris-cpp/src/block.h \
   /Users/davidglogowski/jworkbench/tetris-cpp/src/colors.h \
   /opt/homebrew/include/raylib.h \
@@ -907,6 +907,4 @@ CMakeFiles/tetris.dir/src/main.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/not_fn.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/perfect_forward.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/bind_back.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/bind_front.h \
-  /Users/davidglogowski/jworkbench/tetris-cpp/src/blocks.cpp \
-  /Users/davidglogowski/jworkbench/tetris-cpp/src/grid.h
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/bind_front.h

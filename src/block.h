@@ -8,11 +8,15 @@ class Block {
 public:
   Block();
   int id;
+  void Draw(int offsetX, int offsetY);
   std::map<int, std::vector<Position>> cells;
   void Move(int rows, int cols);
+  std::vector<Position> GetCellPositions();
 
 private:
   int cellSize;
   int rotationState;
+  int rowOffset;
+  int columnOffset;
   std::vector<Color> colors;
 };

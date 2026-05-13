@@ -1,3 +1,5 @@
+#include "block.h"
+#include "blocks.cpp"
 #include "grid.h"
 #include <raylib.h>
 
@@ -11,11 +13,14 @@ int main() {
   Grid grid = Grid();
   grid.Print();
 
+  LBlock lBlock = LBlock();
+
   while (WindowShouldClose() == false) {
 
     BeginDrawing();
     ClearBackground(darkBlue);
     grid.Draw();
+    lBlock.Draw(1, 1);
 
     EndDrawing();
   }
