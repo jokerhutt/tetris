@@ -1,0 +1,26 @@
+[
+{
+  "directory": "/Users/davidglogowski/jworkbench/tetris-cpp/build",
+  "command": "/usr/bin/c++  -I/opt/homebrew/include -std=gnu++20 -arch arm64 -o CMakeFiles/tetris.dir/src/main.cpp.o -c /Users/davidglogowski/jworkbench/tetris-cpp/src/main.cpp",
+  "file": "/Users/davidglogowski/jworkbench/tetris-cpp/src/main.cpp",
+  "output": "CMakeFiles/tetris.dir/src/main.cpp.o"
+},
+{
+  "directory": "/Users/davidglogowski/jworkbench/tetris-cpp/build",
+  "command": "/usr/bin/c++  -I/opt/homebrew/include -std=gnu++20 -arch arm64 -o CMakeFiles/tetris.dir/src/ball.cpp.o -c /Users/davidglogowski/jworkbench/tetris-cpp/src/ball.cpp",
+  "file": "/Users/davidglogowski/jworkbench/tetris-cpp/src/ball.cpp",
+  "output": "CMakeFiles/tetris.dir/src/ball.cpp.o"
+},
+{
+  "directory": "/Users/davidglogowski/jworkbench/tetris-cpp/build",
+  "command": "/usr/bin/c++  -I/opt/homebrew/include -std=gnu++20 -arch arm64 -o CMakeFiles/tetris.dir/src/grid.cpp.o -c /Users/davidglogowski/jworkbench/tetris-cpp/src/grid.cpp",
+  "file": "/Users/davidglogowski/jworkbench/tetris-cpp/src/grid.cpp",
+  "output": "CMakeFiles/tetris.dir/src/grid.cpp.o"
+},
+{
+  "directory": "/Users/davidglogowski/jworkbench/tetris-cpp/build",
+  "command": "/usr/bin/c++  -I/opt/homebrew/include -std=gnu++20 -arch arm64 -o CMakeFiles/tetris.dir/src/colors.cpp.o -c /Users/davidglogowski/jworkbench/tetris-cpp/src/colors.cpp",
+  "file": "/Users/davidglogowski/jworkbench/tetris-cpp/src/colors.cpp",
+  "output": "CMakeFiles/tetris.dir/src/colors.cpp.o"
+}
+]
