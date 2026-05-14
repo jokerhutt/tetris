@@ -11,7 +11,7 @@ public:
   int id;
   void Draw(int offsetX, int offsetY);
   std::map<int, std::vector<Position>> cells;
-  void MoveDown(int rows, int cols);
+  void Move(int rows, int cols);
   void PrintPosition();
   void Rotate();
   void UndoRotation();

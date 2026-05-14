@@ -5,15 +5,33 @@ Game::Game() {
   grid = Grid();
   blocks = GetAllBlocks();
   currentBlock = GenerateRandomBlock();
+  placementTimer = 0;
+  clearAnimationTimer = 0;
 }
 
 void Game::Draw() {
-
-  grid.Draw();
+  if (clearAnimationTimer > 0) {
+    grid.Draw(true);
+  } else {
+    grid.Draw(false);
+  }
   currentBlock.Draw(1, 1);
 }
 
-void Game::Process() { ProcessBlock(); }
+void Game::Process() {
+  if (grid.rowsToClear.size() > 0) {
+    grid.clearAnimationTick++;
+    if (clearAnimationTimer >= 4) {
+      grid.ClearRows();
+      clearAnimationTimer = 0;
+    } else {
+      clearAnimationTimer++;
+    }
+  } else {
+    ProcessBlock();
+    grid.ProcessRows();
+  }
+}
 
 bool Game::IsBlockOutside() {
   std::vector<Position> positions = currentBlock.GetCellPositions();
@@ -32,11 +50,11 @@ void Game::ProcessInput() {
 
     switch (keyPressed) {
     case KEY_LEFT:
-
+      MoveBlockLeft();
       break;
 
     case KEY_RIGHT:
-
+      MoveBlockRight();
       break;
 
     case KEY_UP:
@@ -50,6 +68,22 @@ void Game::ProcessInput() {
   }
 }
 
+void Game::MoveBlockRight() {
+  currentBlock.Move(0, 1);
+  if (IsBlockOutside() || !BlockFits()) {
+    currentBlock.Move(0, -1);
+    return;
+  }
+}
+
+void Game::MoveBlockLeft() {
+  currentBlock.Move(0, -1);
+  if (IsBlockOutside() || !BlockFits()) {
+    currentBlock.Move(0, 1);
+    return;
+  }
+}
+
 void Game::RotateBlock() {
 
   currentBlock.Rotate();
@@ -60,10 +94,12 @@ void Game::RotateBlock() {
 }
 
 void Game::ProcessBlock() {
-  currentBlock.MoveDown(1, 0);
-  if (IsBlockOutside()) {
-    std::cout << "Block outside";
-    currentBlock.MoveDown(-1, 0);
+  if (placementTimer == 0) {
+    currentBlock.Move(1, 0);
+    if (IsBlockOutside()) {
+      std::cout << "Block outside";
+      currentBlock.Move(-1, 0);
+    }
   }
 
   std::vector<Position> positions = currentBlock.GetCellPositions();
@@ -71,7 +107,7 @@ void Game::ProcessBlock() {
   bool isAtBottom = false;
 
   for (Position pos : positions) {
-    if (grid.IsAtBottom(pos.row, pos.column)) {
+    if (grid.IsBelowCollideable(pos.row, pos.column)) {
       isAtBottom = true;
       std::cout << "Is at bottom";
       break;
@@ -81,10 +117,16 @@ void Game::ProcessBlock() {
   std::cout << "Is at bottom " << isAtBottom << std::endl;
 
   if (isAtBottom) {
-    grid.PlaceBlock(positions, currentBlock.id);
-    currentBlock = GenerateRandomBlock();
-    return;
+    if (placementTimer >= 3) {
+      grid.PlaceBlock(positions, currentBlock.id);
+      currentBlock = GenerateRandomBlock();
+    } else {
+      placementTimer++;
+    }
+  } else {
+    placementTimer = 0;
   }
+  return;
 }
 
 bool Game::BlockFits() {

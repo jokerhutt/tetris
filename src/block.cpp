@@ -8,7 +8,7 @@ Block::Block() {
   columnOffset = 0;
 };
 
-void Block::MoveDown(int rows, int cols) {
+void Block::Move(int rows, int cols) {
   rowOffset += rows;
   columnOffset += cols;
 }

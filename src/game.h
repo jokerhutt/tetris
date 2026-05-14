@@ -19,7 +19,11 @@ public:
 
 private:
   Block GenerateRandomBlock();
+  int placementTimer;
+  int clearAnimationTimer;
   void ProcessBlock();
+  void MoveBlockLeft();
+  void MoveBlockRight();
   bool IsBlockOutside();
   bool BlockFits();
   void RotateBlock();
