@@ -18,6 +18,11 @@ cmake -B build -DCMAKE_BUILD_TYPE=Release
 
 cmake --build build```
 
+### Running the Project
+```bash
+./build/tetris
+```
+
 ### Keys
 
 - M : Mute/Unmute
