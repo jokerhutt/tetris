@@ -10,7 +10,7 @@ This is a tetris game i made in C++ using the raylib library.
 
 ### Setup Guide
 ```bash
-git clone <repo-url>
+git clone https://github.com/jokerhutt/tetris.git
 
 cd tetris-cpp
 
