@@ -9,6 +9,7 @@ Game::Game() : ui(120, 300) {
   uiOffsetY = 120;
   placementTimer = 0;
   clearAnimationTimer = 0;
+  gameOver = false;
 }
 
 void Game::Draw() {
@@ -23,17 +24,19 @@ void Game::Draw() {
 }
 
 void Game::Process() {
-  if (grid.rowsToClear.size() > 0) {
-    grid.clearAnimationTick++;
-    if (clearAnimationTimer >= 4) {
-      grid.ClearRows();
-      clearAnimationTimer = 0;
+  if (!gameOver) {
+    if (grid.rowsToClear.size() > 0) {
+      grid.clearAnimationTick++;
+      if (clearAnimationTimer >= 4) {
+        grid.ClearRows();
+        clearAnimationTimer = 0;
+      } else {
+        clearAnimationTimer++;
+      }
     } else {
-      clearAnimationTimer++;
+      ProcessBlock();
+      grid.ProcessRows();
     }
-  } else {
-    ProcessBlock();
-    grid.ProcessRows();
   }
 }
 
@@ -124,6 +127,10 @@ void Game::ProcessBlock() {
     if (placementTimer >= 3) {
       grid.PlaceBlock(positions, currentBlock.id);
       currentBlock = nextBlock;
+      if (!BlockFits() || IsBlockOutside()) {
+        gameOver = true;
+        return;
+      }
       nextBlock = GenerateRandomBlock();
     } else {
       placementTimer++;

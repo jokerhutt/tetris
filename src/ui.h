@@ -10,5 +10,5 @@ public:
   UI(int height, int width);
   int width;
   int height;
-  void Draw(Block nextBlock);
+  void Draw(Block nextBlock, bool gameOver);
 };

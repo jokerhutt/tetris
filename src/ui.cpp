@@ -5,7 +5,7 @@ UI::UI(int height, int width) {
   this->width = width;
 };
 
-void UI::Draw(Block nextBlock) {
+void UI::Draw(Block nextBlock, bool gameOver) {
   rlImGuiBegin();
 
   ImGui::SetNextWindowPos(ImVec2(0, 0));

@@ -12,6 +12,7 @@ class Game {
 public:
   Game();
   Grid grid;
+  bool gameOver;
   Block currentBlock;
   Block nextBlock;
   std::vector<Block> blocks;
