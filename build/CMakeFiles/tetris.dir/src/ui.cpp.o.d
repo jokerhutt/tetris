@@ -977,4 +977,5 @@ CMakeFiles/tetris.dir/src/ui.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/_assert.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/_static_assert.h \
   /Users/davidglogowski/jworkbench/tetris-cpp/build/_deps/rlimgui-src/rlImGui.h \
-  /Users/davidglogowski/jworkbench/tetris-cpp/build/_deps/rlimgui-src/extras/IconsFontAwesome6.h
+  /Users/davidglogowski/jworkbench/tetris-cpp/build/_deps/rlimgui-src/extras/IconsFontAwesome6.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/cfloat

@@ -10,5 +10,6 @@ public:
   UI(int height, int width);
   int width;
   int height;
-  void Draw(Block nextBlock, bool gameOver);
+  enum class Action { None, PlayAgain, Exit };
+  Action Draw(Block nextBlock, bool gameOver, int score);
 };

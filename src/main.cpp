@@ -9,17 +9,21 @@ int main() {
   Color darkBlue = {44, 44, 127, 255};
 
   InitWindow(300, 720, "raylib Tetris");
+  InitAudioDevice();
   rlImGuiSetup(true);
 
   SetTargetFPS(60);
 
   Game game = Game();
 
-  while (WindowShouldClose() == false) {
+  while (WindowShouldClose() == false && game.ShouldExit() == false) {
 
+    game.ProcessMusic();
     game.ProcessInput();
 
-    if (tick <= 10) {
+    int tickRate = game.GetTickRate();
+
+    if (tick <= tickRate) {
       tick++;
     } else {
       game.Process();

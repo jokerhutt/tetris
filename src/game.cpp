@@ -2,7 +2,13 @@
 
 Game::Game() : ui(120, 300) {
 
+  music = LoadMusicStream("assets/audio/korobeiniki.mp3");
+  PlayMusicStream(music);
+
+  score = 0;
+  linesCleared = 0;
   grid = Grid();
+  playMusic = true;
   blocks = GetAllBlocks();
   currentBlock = GenerateRandomBlock();
   nextBlock = GenerateRandomBlock();
@@ -10,7 +16,42 @@ Game::Game() : ui(120, 300) {
   placementTimer = 0;
   clearAnimationTimer = 0;
   gameOver = false;
+  exitRequested = false;
 }
+
+void Game::Reset() {
+  grid.Initialize();
+  currentBlock = GenerateRandomBlock();
+  score = 0;
+  linesCleared = 0;
+  nextBlock = GenerateRandomBlock();
+  placementTimer = 0;
+  clearAnimationTimer = 0;
+  gameOver = false;
+}
+
+int Game::GetTickRate() {
+
+  if (linesCleared <= 10) {
+    return 10;
+  } else if (linesCleared <= 20) {
+    return 9;
+  } else if (linesCleared <= 30) {
+    return 8;
+  } else if (linesCleared <= 40) {
+    return 7;
+  } else if (linesCleared <= 50) {
+    return 6;
+  } else if (linesCleared <= 60) {
+    return 5;
+  } else {
+    return 4;
+  }
+}
+
+void Game::PlayAgain() { Reset(); }
+
+bool Game::ShouldExit() const { return exitRequested; }
 
 void Game::Draw() {
   if (clearAnimationTimer > 0) {
@@ -20,14 +61,44 @@ void Game::Draw() {
   }
   currentBlock.Draw(1, 1 + uiOffsetY);
 
-  ui.Draw(nextBlock);
+  UI::Action action = ui.Draw(nextBlock, gameOver, score);
+  if (action == UI::Action::PlayAgain) {
+    PlayAgain();
+  } else if (action == UI::Action::Exit) {
+    exitRequested = true;
+  }
 }
+
+void Game::AddPoints() {
+  switch (grid.rowsToClear.size()) {
+
+  case 1:
+    score += 100;
+    break;
+
+  case 2:
+    score += 300;
+    break;
+
+  case 3:
+    score += 500;
+    break;
+
+  case 4:
+    score += 800;
+    break;
+  }
+}
+
+void Game::ProcessMusic() { UpdateMusicStream(music); }
 
 void Game::Process() {
   if (!gameOver) {
     if (grid.rowsToClear.size() > 0) {
       grid.clearAnimationTick++;
       if (clearAnimationTimer >= 4) {
+        AddPoints();
+        linesCleared += grid.rowsToClear.size();
         grid.ClearRows();
         clearAnimationTimer = 0;
       } else {
@@ -51,6 +122,16 @@ bool Game::IsBlockOutside() {
   return false;
 }
 
+void Game::ToggleMusic() {
+  if (!playMusic) {
+    ResumeMusicStream(music);
+  } else {
+    PauseMusicStream(music);
+  }
+
+  playMusic = !playMusic;
+}
+
 void Game::ProcessInput() {
   int keyPressed = GetKeyPressed();
   if (keyPressed != 0) {
@@ -64,14 +145,20 @@ void Game::ProcessInput() {
       MoveBlockRight();
       break;
 
+    case KEY_M:
+      ToggleMusic();
+      break;
+
     case KEY_UP:
       RotateBlock();
       break;
 
     case KEY_DOWN:
-      // Move down faster?
       break;
     }
+  }
+  if (IsKeyDown(KEY_DOWN)) {
+    MoveBlockDown();
   }
 }
 
@@ -91,6 +178,14 @@ void Game::MoveBlockLeft() {
   }
 }
 
+void Game::MoveBlockDown() {
+  currentBlock.Move(1, 0);
+  if (IsBlockOutside() || !BlockFits()) {
+    currentBlock.Move(-1, 0);
+    return;
+  }
+}
+
 void Game::RotateBlock() {
 
   currentBlock.Rotate();
@@ -103,7 +198,7 @@ void Game::RotateBlock() {
 void Game::ProcessBlock() {
   if (placementTimer == 0) {
     currentBlock.Move(1, 0);
-    if (IsBlockOutside()) {
+    if (IsBlockOutside() || !BlockFits()) {
       std::cout << "Block outside";
       currentBlock.Move(-1, 0);
     }
