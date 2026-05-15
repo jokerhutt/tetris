@@ -12,7 +12,7 @@ This is a tetris game i made in C++ using the raylib library.
 ```bash
 git clone https://github.com/jokerhutt/tetris.git
 
-cd tetris-cpp
+cd tetris
 
 cmake -B build -DCMAKE_BUILD_TYPE=Release
 
