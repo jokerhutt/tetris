@@ -16,7 +16,9 @@ cd tetris-cpp
 
 cmake -B build -DCMAKE_BUILD_TYPE=Release
 
-cmake --build build```
+cmake --build build
+```
+
 
 ### Running the Project
 ```bash
