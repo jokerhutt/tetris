@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"/Users/davidglogowski/jworkbench/tetris-cpp/build/_deps/imgui-subbuild/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

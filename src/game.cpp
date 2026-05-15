@@ -1,21 +1,25 @@
 #include "game.h"
 
-Game::Game() {
+Game::Game() : ui(120, 300) {
 
   grid = Grid();
   blocks = GetAllBlocks();
   currentBlock = GenerateRandomBlock();
+  nextBlock = GenerateRandomBlock();
+  uiOffsetY = 120;
   placementTimer = 0;
   clearAnimationTimer = 0;
 }
 
 void Game::Draw() {
   if (clearAnimationTimer > 0) {
-    grid.Draw(true);
+    grid.Draw(uiOffsetY, true);
   } else {
-    grid.Draw(false);
+    grid.Draw(uiOffsetY, false);
   }
-  currentBlock.Draw(1, 1);
+  currentBlock.Draw(1, 1 + uiOffsetY);
+
+  ui.Draw(nextBlock);
 }
 
 void Game::Process() {
@@ -119,7 +123,8 @@ void Game::ProcessBlock() {
   if (isAtBottom) {
     if (placementTimer >= 3) {
       grid.PlaceBlock(positions, currentBlock.id);
-      currentBlock = GenerateRandomBlock();
+      currentBlock = nextBlock;
+      nextBlock = GenerateRandomBlock();
     } else {
       placementTimer++;
     }

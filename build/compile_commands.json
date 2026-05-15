@@ -1,44 +1,248 @@
 [
 {
   "directory": "/Users/davidglogowski/jworkbench/tetris-cpp/build",
-  "command": "/usr/bin/c++  -I/opt/homebrew/include -std=gnu++20 -arch arm64 -o CMakeFiles/tetris.dir/src/main.cpp.o -c /Users/davidglogowski/jworkbench/tetris-cpp/src/main.cpp",
+  "command": "/usr/bin/c++  -I/Users/davidglogowski/jworkbench/tetris-cpp/build/_deps/imgui-src -std=gnu++20 -arch arm64 -o CMakeFiles/imgui_lib.dir/_deps/imgui-src/imgui.cpp.o -c /Users/davidglogowski/jworkbench/tetris-cpp/build/_deps/imgui-src/imgui.cpp",
+  "file": "/Users/davidglogowski/jworkbench/tetris-cpp/build/_deps/imgui-src/imgui.cpp",
+  "output": "CMakeFiles/imgui_lib.dir/_deps/imgui-src/imgui.cpp.o"
+},
+{
+  "directory": "/Users/davidglogowski/jworkbench/tetris-cpp/build",
+  "command": "/usr/bin/c++  -I/Users/davidglogowski/jworkbench/tetris-cpp/build/_deps/imgui-src -std=gnu++20 -arch arm64 -o CMakeFiles/imgui_lib.dir/_deps/imgui-src/imgui_draw.cpp.o -c /Users/davidglogowski/jworkbench/tetris-cpp/build/_deps/imgui-src/imgui_draw.cpp",
+  "file": "/Users/davidglogowski/jworkbench/tetris-cpp/build/_deps/imgui-src/imgui_draw.cpp",
+  "output": "CMakeFiles/imgui_lib.dir/_deps/imgui-src/imgui_draw.cpp.o"
+},
+{
+  "directory": "/Users/davidglogowski/jworkbench/tetris-cpp/build",
+  "command": "/usr/bin/c++  -I/Users/davidglogowski/jworkbench/tetris-cpp/build/_deps/imgui-src -std=gnu++20 -arch arm64 -o CMakeFiles/imgui_lib.dir/_deps/imgui-src/imgui_tables.cpp.o -c /Users/davidglogowski/jworkbench/tetris-cpp/build/_deps/imgui-src/imgui_tables.cpp",
+  "file": "/Users/davidglogowski/jworkbench/tetris-cpp/build/_deps/imgui-src/imgui_tables.cpp",
+  "output": "CMakeFiles/imgui_lib.dir/_deps/imgui-src/imgui_tables.cpp.o"
+},
+{
+  "directory": "/Users/davidglogowski/jworkbench/tetris-cpp/build",
+  "command": "/usr/bin/c++  -I/Users/davidglogowski/jworkbench/tetris-cpp/build/_deps/imgui-src -std=gnu++20 -arch arm64 -o CMakeFiles/imgui_lib.dir/_deps/imgui-src/imgui_widgets.cpp.o -c /Users/davidglogowski/jworkbench/tetris-cpp/build/_deps/imgui-src/imgui_widgets.cpp",
+  "file": "/Users/davidglogowski/jworkbench/tetris-cpp/build/_deps/imgui-src/imgui_widgets.cpp",
+  "output": "CMakeFiles/imgui_lib.dir/_deps/imgui-src/imgui_widgets.cpp.o"
+},
+{
+  "directory": "/Users/davidglogowski/jworkbench/tetris-cpp/build",
+  "command": "/usr/bin/c++ -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -I/Users/davidglogowski/jworkbench/tetris-cpp/build/_deps/rlimgui-src -I/Users/davidglogowski/jworkbench/tetris-cpp/build/_deps/imgui-src -I/Users/davidglogowski/jworkbench/tetris-cpp/build/_deps/raylib-src/src -I/Users/davidglogowski/jworkbench/tetris-cpp/build/_deps/raylib-src/src/external/glfw/include -std=gnu++20 -arch arm64 -o CMakeFiles/rlimgui_lib.dir/_deps/rlimgui-src/rlImGui.cpp.o -c /Users/davidglogowski/jworkbench/tetris-cpp/build/_deps/rlimgui-src/rlImGui.cpp",
+  "file": "/Users/davidglogowski/jworkbench/tetris-cpp/build/_deps/rlimgui-src/rlImGui.cpp",
+  "output": "CMakeFiles/rlimgui_lib.dir/_deps/rlimgui-src/rlImGui.cpp.o"
+},
+{
+  "directory": "/Users/davidglogowski/jworkbench/tetris-cpp/build",
+  "command": "/usr/bin/c++ -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -I/Users/davidglogowski/jworkbench/tetris-cpp/build/_deps/rlimgui-src -I/Users/davidglogowski/jworkbench/tetris-cpp/build/_deps/imgui-src -I/Users/davidglogowski/jworkbench/tetris-cpp/build/_deps/raylib-src/src -I/Users/davidglogowski/jworkbench/tetris-cpp/build/_deps/raylib-src/src/external/glfw/include -std=gnu++20 -arch arm64 -o CMakeFiles/tetris.dir/src/main.cpp.o -c /Users/davidglogowski/jworkbench/tetris-cpp/src/main.cpp",
   "file": "/Users/davidglogowski/jworkbench/tetris-cpp/src/main.cpp",
   "output": "CMakeFiles/tetris.dir/src/main.cpp.o"
 },
 {
   "directory": "/Users/davidglogowski/jworkbench/tetris-cpp/build",
-  "command": "/usr/bin/c++  -I/opt/homebrew/include -std=gnu++20 -arch arm64 -o CMakeFiles/tetris.dir/src/position.cpp.o -c /Users/davidglogowski/jworkbench/tetris-cpp/src/position.cpp",
+  "command": "/usr/bin/c++ -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -I/Users/davidglogowski/jworkbench/tetris-cpp/build/_deps/rlimgui-src -I/Users/davidglogowski/jworkbench/tetris-cpp/build/_deps/imgui-src -I/Users/davidglogowski/jworkbench/tetris-cpp/build/_deps/raylib-src/src -I/Users/davidglogowski/jworkbench/tetris-cpp/build/_deps/raylib-src/src/external/glfw/include -std=gnu++20 -arch arm64 -o CMakeFiles/tetris.dir/src/position.cpp.o -c /Users/davidglogowski/jworkbench/tetris-cpp/src/position.cpp",
   "file": "/Users/davidglogowski/jworkbench/tetris-cpp/src/position.cpp",
   "output": "CMakeFiles/tetris.dir/src/position.cpp.o"
 },
 {
   "directory": "/Users/davidglogowski/jworkbench/tetris-cpp/build",
-  "command": "/usr/bin/c++  -I/opt/homebrew/include -std=gnu++20 -arch arm64 -o CMakeFiles/tetris.dir/src/grid.cpp.o -c /Users/davidglogowski/jworkbench/tetris-cpp/src/grid.cpp",
+  "command": "/usr/bin/c++ -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -I/Users/davidglogowski/jworkbench/tetris-cpp/build/_deps/rlimgui-src -I/Users/davidglogowski/jworkbench/tetris-cpp/build/_deps/imgui-src -I/Users/davidglogowski/jworkbench/tetris-cpp/build/_deps/raylib-src/src -I/Users/davidglogowski/jworkbench/tetris-cpp/build/_deps/raylib-src/src/external/glfw/include -std=gnu++20 -arch arm64 -o CMakeFiles/tetris.dir/src/grid.cpp.o -c /Users/davidglogowski/jworkbench/tetris-cpp/src/grid.cpp",
   "file": "/Users/davidglogowski/jworkbench/tetris-cpp/src/grid.cpp",
   "output": "CMakeFiles/tetris.dir/src/grid.cpp.o"
 },
 {
   "directory": "/Users/davidglogowski/jworkbench/tetris-cpp/build",
-  "command": "/usr/bin/c++  -I/opt/homebrew/include -std=gnu++20 -arch arm64 -o CMakeFiles/tetris.dir/src/colors.cpp.o -c /Users/davidglogowski/jworkbench/tetris-cpp/src/colors.cpp",
+  "command": "/usr/bin/c++ -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -I/Users/davidglogowski/jworkbench/tetris-cpp/build/_deps/rlimgui-src -I/Users/davidglogowski/jworkbench/tetris-cpp/build/_deps/imgui-src -I/Users/davidglogowski/jworkbench/tetris-cpp/build/_deps/raylib-src/src -I/Users/davidglogowski/jworkbench/tetris-cpp/build/_deps/raylib-src/src/external/glfw/include -std=gnu++20 -arch arm64 -o CMakeFiles/tetris.dir/src/colors.cpp.o -c /Users/davidglogowski/jworkbench/tetris-cpp/src/colors.cpp",
   "file": "/Users/davidglogowski/jworkbench/tetris-cpp/src/colors.cpp",
   "output": "CMakeFiles/tetris.dir/src/colors.cpp.o"
 },
 {
   "directory": "/Users/davidglogowski/jworkbench/tetris-cpp/build",
-  "command": "/usr/bin/c++  -I/opt/homebrew/include -std=gnu++20 -arch arm64 -o CMakeFiles/tetris.dir/src/block.cpp.o -c /Users/davidglogowski/jworkbench/tetris-cpp/src/block.cpp",
+  "command": "/usr/bin/c++ -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -I/Users/davidglogowski/jworkbench/tetris-cpp/build/_deps/rlimgui-src -I/Users/davidglogowski/jworkbench/tetris-cpp/build/_deps/imgui-src -I/Users/davidglogowski/jworkbench/tetris-cpp/build/_deps/raylib-src/src -I/Users/davidglogowski/jworkbench/tetris-cpp/build/_deps/raylib-src/src/external/glfw/include -std=gnu++20 -arch arm64 -o CMakeFiles/tetris.dir/src/block.cpp.o -c /Users/davidglogowski/jworkbench/tetris-cpp/src/block.cpp",
   "file": "/Users/davidglogowski/jworkbench/tetris-cpp/src/block.cpp",
   "output": "CMakeFiles/tetris.dir/src/block.cpp.o"
 },
 {
   "directory": "/Users/davidglogowski/jworkbench/tetris-cpp/build",
-  "command": "/usr/bin/c++  -I/opt/homebrew/include -std=gnu++20 -arch arm64 -o CMakeFiles/tetris.dir/src/blocks.cpp.o -c /Users/davidglogowski/jworkbench/tetris-cpp/src/blocks.cpp",
+  "command": "/usr/bin/c++ -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -I/Users/davidglogowski/jworkbench/tetris-cpp/build/_deps/rlimgui-src -I/Users/davidglogowski/jworkbench/tetris-cpp/build/_deps/imgui-src -I/Users/davidglogowski/jworkbench/tetris-cpp/build/_deps/raylib-src/src -I/Users/davidglogowski/jworkbench/tetris-cpp/build/_deps/raylib-src/src/external/glfw/include -std=gnu++20 -arch arm64 -o CMakeFiles/tetris.dir/src/blocks.cpp.o -c /Users/davidglogowski/jworkbench/tetris-cpp/src/blocks.cpp",
   "file": "/Users/davidglogowski/jworkbench/tetris-cpp/src/blocks.cpp",
   "output": "CMakeFiles/tetris.dir/src/blocks.cpp.o"
 },
 {
   "directory": "/Users/davidglogowski/jworkbench/tetris-cpp/build",
-  "command": "/usr/bin/c++  -I/opt/homebrew/include -std=gnu++20 -arch arm64 -o CMakeFiles/tetris.dir/src/game.cpp.o -c /Users/davidglogowski/jworkbench/tetris-cpp/src/game.cpp",
+  "command": "/usr/bin/c++ -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -I/Users/davidglogowski/jworkbench/tetris-cpp/build/_deps/rlimgui-src -I/Users/davidglogowski/jworkbench/tetris-cpp/build/_deps/imgui-src -I/Users/davidglogowski/jworkbench/tetris-cpp/build/_deps/raylib-src/src -I/Users/davidglogowski/jworkbench/tetris-cpp/build/_deps/raylib-src/src/external/glfw/include -std=gnu++20 -arch arm64 -o CMakeFiles/tetris.dir/src/game.cpp.o -c /Users/davidglogowski/jworkbench/tetris-cpp/src/game.cpp",
   "file": "/Users/davidglogowski/jworkbench/tetris-cpp/src/game.cpp",
   "output": "CMakeFiles/tetris.dir/src/game.cpp.o"
+},
+{
+  "directory": "/Users/davidglogowski/jworkbench/tetris-cpp/build",
+  "command": "/usr/bin/c++ -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -I/Users/davidglogowski/jworkbench/tetris-cpp/build/_deps/rlimgui-src -I/Users/davidglogowski/jworkbench/tetris-cpp/build/_deps/imgui-src -I/Users/davidglogowski/jworkbench/tetris-cpp/build/_deps/raylib-src/src -I/Users/davidglogowski/jworkbench/tetris-cpp/build/_deps/raylib-src/src/external/glfw/include -std=gnu++20 -arch arm64 -o CMakeFiles/tetris.dir/src/ui.cpp.o -c /Users/davidglogowski/jworkbench/tetris-cpp/src/ui.cpp",
+  "file": "/Users/davidglogowski/jworkbench/tetris-cpp/src/ui.cpp",
+  "output": "CMakeFiles/tetris.dir/src/ui.cpp.o"
+},
+{
+  "directory": "/Users/davidglogowski/jworkbench/tetris-cpp/build/_deps/raylib-build/raylib",
+  "command": "/usr/bin/cc -DGL_SILENCE_DEPRECATION -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -I/Users/davidglogowski/jworkbench/tetris-cpp/build/_deps/raylib-src/src -F/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks -isystem /Users/davidglogowski/jworkbench/tetris-cpp/build/_deps/raylib-src/src/external/glfw/include -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -std=gnu99 -arch arm64 -o CMakeFiles/raylib.dir/raudio.c.o -c /Users/davidglogowski/jworkbench/tetris-cpp/build/_deps/raylib-src/src/raudio.c",
+  "file": "/Users/davidglogowski/jworkbench/tetris-cpp/build/_deps/raylib-src/src/raudio.c",
+  "output": "_deps/raylib-build/raylib/CMakeFiles/raylib.dir/raudio.c.o"
+},
+{
+  "directory": "/Users/davidglogowski/jworkbench/tetris-cpp/build/_deps/raylib-build/raylib",
+  "command": "/usr/bin/cc -DGL_SILENCE_DEPRECATION -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -I/Users/davidglogowski/jworkbench/tetris-cpp/build/_deps/raylib-src/src -F/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks -isystem /Users/davidglogowski/jworkbench/tetris-cpp/build/_deps/raylib-src/src/external/glfw/include -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -std=gnu99 -arch arm64 -o CMakeFiles/raylib.dir/rcore.c.o -c /Users/davidglogowski/jworkbench/tetris-cpp/build/_deps/raylib-src/src/rcore.c",
+  "file": "/Users/davidglogowski/jworkbench/tetris-cpp/build/_deps/raylib-src/src/rcore.c",
+  "output": "_deps/raylib-build/raylib/CMakeFiles/raylib.dir/rcore.c.o"
+},
+{
+  "directory": "/Users/davidglogowski/jworkbench/tetris-cpp/build/_deps/raylib-build/raylib",
+  "command": "/usr/bin/cc -DGL_SILENCE_DEPRECATION -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -I/Users/davidglogowski/jworkbench/tetris-cpp/build/_deps/raylib-src/src -F/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks -isystem /Users/davidglogowski/jworkbench/tetris-cpp/build/_deps/raylib-src/src/external/glfw/include -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -std=gnu99 -arch arm64 -o CMakeFiles/raylib.dir/rmodels.c.o -c /Users/davidglogowski/jworkbench/tetris-cpp/build/_deps/raylib-src/src/rmodels.c",
+  "file": "/Users/davidglogowski/jworkbench/tetris-cpp/build/_deps/raylib-src/src/rmodels.c",
+  "output": "_deps/raylib-build/raylib/CMakeFiles/raylib.dir/rmodels.c.o"
+},
+{
+  "directory": "/Users/davidglogowski/jworkbench/tetris-cpp/build/_deps/raylib-build/raylib",
+  "command": "/usr/bin/cc -DGL_SILENCE_DEPRECATION -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -I/Users/davidglogowski/jworkbench/tetris-cpp/build/_deps/raylib-src/src -F/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks -isystem /Users/davidglogowski/jworkbench/tetris-cpp/build/_deps/raylib-src/src/external/glfw/include -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -std=gnu99 -arch arm64 -o CMakeFiles/raylib.dir/rshapes.c.o -c /Users/davidglogowski/jworkbench/tetris-cpp/build/_deps/raylib-src/src/rshapes.c",
+  "file": "/Users/davidglogowski/jworkbench/tetris-cpp/build/_deps/raylib-src/src/rshapes.c",
+  "output": "_deps/raylib-build/raylib/CMakeFiles/raylib.dir/rshapes.c.o"
+},
+{
+  "directory": "/Users/davidglogowski/jworkbench/tetris-cpp/build/_deps/raylib-build/raylib",
+  "command": "/usr/bin/cc -DGL_SILENCE_DEPRECATION -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -I/Users/davidglogowski/jworkbench/tetris-cpp/build/_deps/raylib-src/src -F/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks -isystem /Users/davidglogowski/jworkbench/tetris-cpp/build/_deps/raylib-src/src/external/glfw/include -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -std=gnu99 -arch arm64 -o CMakeFiles/raylib.dir/rtext.c.o -c /Users/davidglogowski/jworkbench/tetris-cpp/build/_deps/raylib-src/src/rtext.c",
+  "file": "/Users/davidglogowski/jworkbench/tetris-cpp/build/_deps/raylib-src/src/rtext.c",
+  "output": "_deps/raylib-build/raylib/CMakeFiles/raylib.dir/rtext.c.o"
+},
+{
+  "directory": "/Users/davidglogowski/jworkbench/tetris-cpp/build/_deps/raylib-build/raylib",
+  "command": "/usr/bin/cc -DGL_SILENCE_DEPRECATION -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -I/Users/davidglogowski/jworkbench/tetris-cpp/build/_deps/raylib-src/src -F/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks -isystem /Users/davidglogowski/jworkbench/tetris-cpp/build/_deps/raylib-src/src/external/glfw/include -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -std=gnu99 -arch arm64 -o CMakeFiles/raylib.dir/rtextures.c.o -c /Users/davidglogowski/jworkbench/tetris-cpp/build/_deps/raylib-src/src/rtextures.c",
+  "file": "/Users/davidglogowski/jworkbench/tetris-cpp/build/_deps/raylib-src/src/rtextures.c",
+  "output": "_deps/raylib-build/raylib/CMakeFiles/raylib.dir/rtextures.c.o"
+},
+{
+  "directory": "/Users/davidglogowski/jworkbench/tetris-cpp/build/_deps/raylib-build/raylib",
+  "command": "/usr/bin/cc -DGL_SILENCE_DEPRECATION -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -I/Users/davidglogowski/jworkbench/tetris-cpp/build/_deps/raylib-src/src -F/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks -isystem /Users/davidglogowski/jworkbench/tetris-cpp/build/_deps/raylib-src/src/external/glfw/include -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -std=gnu99 -arch arm64 -o CMakeFiles/raylib.dir/utils.c.o -c /Users/davidglogowski/jworkbench/tetris-cpp/build/_deps/raylib-src/src/utils.c",
+  "file": "/Users/davidglogowski/jworkbench/tetris-cpp/build/_deps/raylib-src/src/utils.c",
+  "output": "_deps/raylib-build/raylib/CMakeFiles/raylib.dir/utils.c.o"
+},
+{
+  "directory": "/Users/davidglogowski/jworkbench/tetris-cpp/build/_deps/raylib-build/raylib/external/glfw/src",
+  "command": "/usr/bin/cc -D_GLFW_COCOA -I/Users/davidglogowski/jworkbench/tetris-cpp/build/_deps/raylib-src/src/external/glfw/include -I/Users/davidglogowski/jworkbench/tetris-cpp/build/_deps/raylib-src/src/external/glfw/src -I/Users/davidglogowski/jworkbench/tetris-cpp/build/_deps/raylib-build/raylib/external/glfw/src -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -std=c99 -arch arm64 -fPIC -Wall -o CMakeFiles/glfw.dir/context.c.o -c /Users/davidglogowski/jworkbench/tetris-cpp/build/_deps/raylib-src/src/external/glfw/src/context.c",
+  "file": "/Users/davidglogowski/jworkbench/tetris-cpp/build/_deps/raylib-src/src/external/glfw/src/context.c",
+  "output": "_deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/context.c.o"
+},
+{
+  "directory": "/Users/davidglogowski/jworkbench/tetris-cpp/build/_deps/raylib-build/raylib/external/glfw/src",
+  "command": "/usr/bin/cc -D_GLFW_COCOA -I/Users/davidglogowski/jworkbench/tetris-cpp/build/_deps/raylib-src/src/external/glfw/include -I/Users/davidglogowski/jworkbench/tetris-cpp/build/_deps/raylib-src/src/external/glfw/src -I/Users/davidglogowski/jworkbench/tetris-cpp/build/_deps/raylib-build/raylib/external/glfw/src -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -std=c99 -arch arm64 -fPIC -Wall -o CMakeFiles/glfw.dir/init.c.o -c /Users/davidglogowski/jworkbench/tetris-cpp/build/_deps/raylib-src/src/external/glfw/src/init.c",
+  "file": "/Users/davidglogowski/jworkbench/tetris-cpp/build/_deps/raylib-src/src/external/glfw/src/init.c",
+  "output": "_deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/init.c.o"
+},
+{
+  "directory": "/Users/davidglogowski/jworkbench/tetris-cpp/build/_deps/raylib-build/raylib/external/glfw/src",
+  "command": "/usr/bin/cc -D_GLFW_COCOA -I/Users/davidglogowski/jworkbench/tetris-cpp/build/_deps/raylib-src/src/external/glfw/include -I/Users/davidglogowski/jworkbench/tetris-cpp/build/_deps/raylib-src/src/external/glfw/src -I/Users/davidglogowski/jworkbench/tetris-cpp/build/_deps/raylib-build/raylib/external/glfw/src -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -std=c99 -arch arm64 -fPIC -Wall -o CMakeFiles/glfw.dir/input.c.o -c /Users/davidglogowski/jworkbench/tetris-cpp/build/_deps/raylib-src/src/external/glfw/src/input.c",
+  "file": "/Users/davidglogowski/jworkbench/tetris-cpp/build/_deps/raylib-src/src/external/glfw/src/input.c",
+  "output": "_deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/input.c.o"
+},
+{
+  "directory": "/Users/davidglogowski/jworkbench/tetris-cpp/build/_deps/raylib-build/raylib/external/glfw/src",
+  "command": "/usr/bin/cc -D_GLFW_COCOA -I/Users/davidglogowski/jworkbench/tetris-cpp/build/_deps/raylib-src/src/external/glfw/include -I/Users/davidglogowski/jworkbench/tetris-cpp/build/_deps/raylib-src/src/external/glfw/src -I/Users/davidglogowski/jworkbench/tetris-cpp/build/_deps/raylib-build/raylib/external/glfw/src -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -std=c99 -arch arm64 -fPIC -Wall -o CMakeFiles/glfw.dir/monitor.c.o -c /Users/davidglogowski/jworkbench/tetris-cpp/build/_deps/raylib-src/src/external/glfw/src/monitor.c",
+  "file": "/Users/davidglogowski/jworkbench/tetris-cpp/build/_deps/raylib-src/src/external/glfw/src/monitor.c",
+  "output": "_deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/monitor.c.o"
+},
+{
+  "directory": "/Users/davidglogowski/jworkbench/tetris-cpp/build/_deps/raylib-build/raylib/external/glfw/src",
+  "command": "/usr/bin/cc -D_GLFW_COCOA -I/Users/davidglogowski/jworkbench/tetris-cpp/build/_deps/raylib-src/src/external/glfw/include -I/Users/davidglogowski/jworkbench/tetris-cpp/build/_deps/raylib-src/src/external/glfw/src -I/Users/davidglogowski/jworkbench/tetris-cpp/build/_deps/raylib-build/raylib/external/glfw/src -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -std=c99 -arch arm64 -fPIC -Wall -o CMakeFiles/glfw.dir/platform.c.o -c /Users/davidglogowski/jworkbench/tetris-cpp/build/_deps/raylib-src/src/external/glfw/src/platform.c",
+  "file": "/Users/davidglogowski/jworkbench/tetris-cpp/build/_deps/raylib-src/src/external/glfw/src/platform.c",
+  "output": "_deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/platform.c.o"
+},
+{
+  "directory": "/Users/davidglogowski/jworkbench/tetris-cpp/build/_deps/raylib-build/raylib/external/glfw/src",
+  "command": "/usr/bin/cc -D_GLFW_COCOA -I/Users/davidglogowski/jworkbench/tetris-cpp/build/_deps/raylib-src/src/external/glfw/include -I/Users/davidglogowski/jworkbench/tetris-cpp/build/_deps/raylib-src/src/external/glfw/src -I/Users/davidglogowski/jworkbench/tetris-cpp/build/_deps/raylib-build/raylib/external/glfw/src -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -std=c99 -arch arm64 -fPIC -Wall -o CMakeFiles/glfw.dir/vulkan.c.o -c /Users/davidglogowski/jworkbench/tetris-cpp/build/_deps/raylib-src/src/external/glfw/src/vulkan.c",
+  "file": "/Users/davidglogowski/jworkbench/tetris-cpp/build/_deps/raylib-src/src/external/glfw/src/vulkan.c",
+  "output": "_deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/vulkan.c.o"
+},
+{
+  "directory": "/Users/davidglogowski/jworkbench/tetris-cpp/build/_deps/raylib-build/raylib/external/glfw/src",
+  "command": "/usr/bin/cc -D_GLFW_COCOA -I/Users/davidglogowski/jworkbench/tetris-cpp/build/_deps/raylib-src/src/external/glfw/include -I/Users/davidglogowski/jworkbench/tetris-cpp/build/_deps/raylib-src/src/external/glfw/src -I/Users/davidglogowski/jworkbench/tetris-cpp/build/_deps/raylib-build/raylib/external/glfw/src -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -std=c99 -arch arm64 -fPIC -Wall -o CMakeFiles/glfw.dir/window.c.o -c /Users/davidglogowski/jworkbench/tetris-cpp/build/_deps/raylib-src/src/external/glfw/src/window.c",
+  "file": "/Users/davidglogowski/jworkbench/tetris-cpp/build/_deps/raylib-src/src/external/glfw/src/window.c",
+  "output": "_deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/window.c.o"
+},
+{
+  "directory": "/Users/davidglogowski/jworkbench/tetris-cpp/build/_deps/raylib-build/raylib/external/glfw/src",
+  "command": "/usr/bin/cc -D_GLFW_COCOA -I/Users/davidglogowski/jworkbench/tetris-cpp/build/_deps/raylib-src/src/external/glfw/include -I/Users/davidglogowski/jworkbench/tetris-cpp/build/_deps/raylib-src/src/external/glfw/src -I/Users/davidglogowski/jworkbench/tetris-cpp/build/_deps/raylib-build/raylib/external/glfw/src -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -std=c99 -arch arm64 -fPIC -Wall -o CMakeFiles/glfw.dir/egl_context.c.o -c /Users/davidglogowski/jworkbench/tetris-cpp/build/_deps/raylib-src/src/external/glfw/src/egl_context.c",
+  "file": "/Users/davidglogowski/jworkbench/tetris-cpp/build/_deps/raylib-src/src/external/glfw/src/egl_context.c",
+  "output": "_deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/egl_context.c.o"
+},
+{
+  "directory": "/Users/davidglogowski/jworkbench/tetris-cpp/build/_deps/raylib-build/raylib/external/glfw/src",
+  "command": "/usr/bin/cc -D_GLFW_COCOA -I/Users/davidglogowski/jworkbench/tetris-cpp/build/_deps/raylib-src/src/external/glfw/include -I/Users/davidglogowski/jworkbench/tetris-cpp/build/_deps/raylib-src/src/external/glfw/src -I/Users/davidglogowski/jworkbench/tetris-cpp/build/_deps/raylib-build/raylib/external/glfw/src -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -std=c99 -arch arm64 -fPIC -Wall -o CMakeFiles/glfw.dir/osmesa_context.c.o -c /Users/davidglogowski/jworkbench/tetris-cpp/build/_deps/raylib-src/src/external/glfw/src/osmesa_context.c",
+  "file": "/Users/davidglogowski/jworkbench/tetris-cpp/build/_deps/raylib-src/src/external/glfw/src/osmesa_context.c",
+  "output": "_deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/osmesa_context.c.o"
+},
+{
+  "directory": "/Users/davidglogowski/jworkbench/tetris-cpp/build/_deps/raylib-build/raylib/external/glfw/src",
+  "command": "/usr/bin/cc -D_GLFW_COCOA -I/Users/davidglogowski/jworkbench/tetris-cpp/build/_deps/raylib-src/src/external/glfw/include -I/Users/davidglogowski/jworkbench/tetris-cpp/build/_deps/raylib-src/src/external/glfw/src -I/Users/davidglogowski/jworkbench/tetris-cpp/build/_deps/raylib-build/raylib/external/glfw/src -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -std=c99 -arch arm64 -fPIC -Wall -o CMakeFiles/glfw.dir/null_init.c.o -c /Users/davidglogowski/jworkbench/tetris-cpp/build/_deps/raylib-src/src/external/glfw/src/null_init.c",
+  "file": "/Users/davidglogowski/jworkbench/tetris-cpp/build/_deps/raylib-src/src/external/glfw/src/null_init.c",
+  "output": "_deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/null_init.c.o"
+},
+{
+  "directory": "/Users/davidglogowski/jworkbench/tetris-cpp/build/_deps/raylib-build/raylib/external/glfw/src",
+  "command": "/usr/bin/cc -D_GLFW_COCOA -I/Users/davidglogowski/jworkbench/tetris-cpp/build/_deps/raylib-src/src/external/glfw/include -I/Users/davidglogowski/jworkbench/tetris-cpp/build/_deps/raylib-src/src/external/glfw/src -I/Users/davidglogowski/jworkbench/tetris-cpp/build/_deps/raylib-build/raylib/external/glfw/src -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -std=c99 -arch arm64 -fPIC -Wall -o CMakeFiles/glfw.dir/null_monitor.c.o -c /Users/davidglogowski/jworkbench/tetris-cpp/build/_deps/raylib-src/src/external/glfw/src/null_monitor.c",
+  "file": "/Users/davidglogowski/jworkbench/tetris-cpp/build/_deps/raylib-src/src/external/glfw/src/null_monitor.c",
+  "output": "_deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/null_monitor.c.o"
+},
+{
+  "directory": "/Users/davidglogowski/jworkbench/tetris-cpp/build/_deps/raylib-build/raylib/external/glfw/src",
+  "command": "/usr/bin/cc -D_GLFW_COCOA -I/Users/davidglogowski/jworkbench/tetris-cpp/build/_deps/raylib-src/src/external/glfw/include -I/Users/davidglogowski/jworkbench/tetris-cpp/build/_deps/raylib-src/src/external/glfw/src -I/Users/davidglogowski/jworkbench/tetris-cpp/build/_deps/raylib-build/raylib/external/glfw/src -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -std=c99 -arch arm64 -fPIC -Wall -o CMakeFiles/glfw.dir/null_window.c.o -c /Users/davidglogowski/jworkbench/tetris-cpp/build/_deps/raylib-src/src/external/glfw/src/null_window.c",
+  "file": "/Users/davidglogowski/jworkbench/tetris-cpp/build/_deps/raylib-src/src/external/glfw/src/null_window.c",
+  "output": "_deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/null_window.c.o"
+},
+{
+  "directory": "/Users/davidglogowski/jworkbench/tetris-cpp/build/_deps/raylib-build/raylib/external/glfw/src",
+  "command": "/usr/bin/cc -D_GLFW_COCOA -I/Users/davidglogowski/jworkbench/tetris-cpp/build/_deps/raylib-src/src/external/glfw/include -I/Users/davidglogowski/jworkbench/tetris-cpp/build/_deps/raylib-src/src/external/glfw/src -I/Users/davidglogowski/jworkbench/tetris-cpp/build/_deps/raylib-build/raylib/external/glfw/src -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -std=c99 -arch arm64 -fPIC -Wall -o CMakeFiles/glfw.dir/null_joystick.c.o -c /Users/davidglogowski/jworkbench/tetris-cpp/build/_deps/raylib-src/src/external/glfw/src/null_joystick.c",
+  "file": "/Users/davidglogowski/jworkbench/tetris-cpp/build/_deps/raylib-src/src/external/glfw/src/null_joystick.c",
+  "output": "_deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/null_joystick.c.o"
+},
+{
+  "directory": "/Users/davidglogowski/jworkbench/tetris-cpp/build/_deps/raylib-build/raylib/external/glfw/src",
+  "command": "/usr/bin/cc -D_GLFW_COCOA -I/Users/davidglogowski/jworkbench/tetris-cpp/build/_deps/raylib-src/src/external/glfw/include -I/Users/davidglogowski/jworkbench/tetris-cpp/build/_deps/raylib-src/src/external/glfw/src -I/Users/davidglogowski/jworkbench/tetris-cpp/build/_deps/raylib-build/raylib/external/glfw/src -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -std=c99 -arch arm64 -fPIC -Wall -o CMakeFiles/glfw.dir/cocoa_time.c.o -c /Users/davidglogowski/jworkbench/tetris-cpp/build/_deps/raylib-src/src/external/glfw/src/cocoa_time.c",
+  "file": "/Users/davidglogowski/jworkbench/tetris-cpp/build/_deps/raylib-src/src/external/glfw/src/cocoa_time.c",
+  "output": "_deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/cocoa_time.c.o"
+},
+{
+  "directory": "/Users/davidglogowski/jworkbench/tetris-cpp/build/_deps/raylib-build/raylib/external/glfw/src",
+  "command": "/usr/bin/cc -D_GLFW_COCOA -I/Users/davidglogowski/jworkbench/tetris-cpp/build/_deps/raylib-src/src/external/glfw/include -I/Users/davidglogowski/jworkbench/tetris-cpp/build/_deps/raylib-src/src/external/glfw/src -I/Users/davidglogowski/jworkbench/tetris-cpp/build/_deps/raylib-build/raylib/external/glfw/src -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -std=c99 -arch arm64 -fPIC -Wall -o CMakeFiles/glfw.dir/posix_module.c.o -c /Users/davidglogowski/jworkbench/tetris-cpp/build/_deps/raylib-src/src/external/glfw/src/posix_module.c",
+  "file": "/Users/davidglogowski/jworkbench/tetris-cpp/build/_deps/raylib-src/src/external/glfw/src/posix_module.c",
+  "output": "_deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/posix_module.c.o"
+},
+{
+  "directory": "/Users/davidglogowski/jworkbench/tetris-cpp/build/_deps/raylib-build/raylib/external/glfw/src",
+  "command": "/usr/bin/cc -D_GLFW_COCOA -I/Users/davidglogowski/jworkbench/tetris-cpp/build/_deps/raylib-src/src/external/glfw/include -I/Users/davidglogowski/jworkbench/tetris-cpp/build/_deps/raylib-src/src/external/glfw/src -I/Users/davidglogowski/jworkbench/tetris-cpp/build/_deps/raylib-build/raylib/external/glfw/src -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -std=c99 -arch arm64 -fPIC -Wall -o CMakeFiles/glfw.dir/posix_thread.c.o -c /Users/davidglogowski/jworkbench/tetris-cpp/build/_deps/raylib-src/src/external/glfw/src/posix_thread.c",
+  "file": "/Users/davidglogowski/jworkbench/tetris-cpp/build/_deps/raylib-src/src/external/glfw/src/posix_thread.c",
+  "output": "_deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/posix_thread.c.o"
+},
+{
+  "directory": "/Users/davidglogowski/jworkbench/tetris-cpp/build/_deps/raylib-build/raylib/external/glfw/src",
+  "command": "/usr/bin/cc -D_GLFW_COCOA -I/Users/davidglogowski/jworkbench/tetris-cpp/build/_deps/raylib-src/src/external/glfw/include -I/Users/davidglogowski/jworkbench/tetris-cpp/build/_deps/raylib-src/src/external/glfw/src -I/Users/davidglogowski/jworkbench/tetris-cpp/build/_deps/raylib-build/raylib/external/glfw/src -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -std=c99 -arch arm64 -fPIC -Wall -o CMakeFiles/glfw.dir/cocoa_init.m.o -c /Users/davidglogowski/jworkbench/tetris-cpp/build/_deps/raylib-src/src/external/glfw/src/cocoa_init.m",
+  "file": "/Users/davidglogowski/jworkbench/tetris-cpp/build/_deps/raylib-src/src/external/glfw/src/cocoa_init.m",
+  "output": "_deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/cocoa_init.m.o"
+},
+{
+  "directory": "/Users/davidglogowski/jworkbench/tetris-cpp/build/_deps/raylib-build/raylib/external/glfw/src",
+  "command": "/usr/bin/cc -D_GLFW_COCOA -I/Users/davidglogowski/jworkbench/tetris-cpp/build/_deps/raylib-src/src/external/glfw/include -I/Users/davidglogowski/jworkbench/tetris-cpp/build/_deps/raylib-src/src/external/glfw/src -I/Users/davidglogowski/jworkbench/tetris-cpp/build/_deps/raylib-build/raylib/external/glfw/src -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -std=c99 -arch arm64 -fPIC -Wall -o CMakeFiles/glfw.dir/cocoa_joystick.m.o -c /Users/davidglogowski/jworkbench/tetris-cpp/build/_deps/raylib-src/src/external/glfw/src/cocoa_joystick.m",
+  "file": "/Users/davidglogowski/jworkbench/tetris-cpp/build/_deps/raylib-src/src/external/glfw/src/cocoa_joystick.m",
+  "output": "_deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/cocoa_joystick.m.o"
+},
+{
+  "directory": "/Users/davidglogowski/jworkbench/tetris-cpp/build/_deps/raylib-build/raylib/external/glfw/src",
+  "command": "/usr/bin/cc -D_GLFW_COCOA -I/Users/davidglogowski/jworkbench/tetris-cpp/build/_deps/raylib-src/src/external/glfw/include -I/Users/davidglogowski/jworkbench/tetris-cpp/build/_deps/raylib-src/src/external/glfw/src -I/Users/davidglogowski/jworkbench/tetris-cpp/build/_deps/raylib-build/raylib/external/glfw/src -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -std=c99 -arch arm64 -fPIC -Wall -o CMakeFiles/glfw.dir/cocoa_monitor.m.o -c /Users/davidglogowski/jworkbench/tetris-cpp/build/_deps/raylib-src/src/external/glfw/src/cocoa_monitor.m",
+  "file": "/Users/davidglogowski/jworkbench/tetris-cpp/build/_deps/raylib-src/src/external/glfw/src/cocoa_monitor.m",
+  "output": "_deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/cocoa_monitor.m.o"
+},
+{
+  "directory": "/Users/davidglogowski/jworkbench/tetris-cpp/build/_deps/raylib-build/raylib/external/glfw/src",
+  "command": "/usr/bin/cc -D_GLFW_COCOA -I/Users/davidglogowski/jworkbench/tetris-cpp/build/_deps/raylib-src/src/external/glfw/include -I/Users/davidglogowski/jworkbench/tetris-cpp/build/_deps/raylib-src/src/external/glfw/src -I/Users/davidglogowski/jworkbench/tetris-cpp/build/_deps/raylib-build/raylib/external/glfw/src -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -std=c99 -arch arm64 -fPIC -Wall -o CMakeFiles/glfw.dir/cocoa_window.m.o -c /Users/davidglogowski/jworkbench/tetris-cpp/build/_deps/raylib-src/src/external/glfw/src/cocoa_window.m",
+  "file": "/Users/davidglogowski/jworkbench/tetris-cpp/build/_deps/raylib-src/src/external/glfw/src/cocoa_window.m",
+  "output": "_deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/cocoa_window.m.o"
+},
+{
+  "directory": "/Users/davidglogowski/jworkbench/tetris-cpp/build/_deps/raylib-build/raylib/external/glfw/src",
+  "command": "/usr/bin/cc -D_GLFW_COCOA -I/Users/davidglogowski/jworkbench/tetris-cpp/build/_deps/raylib-src/src/external/glfw/include -I/Users/davidglogowski/jworkbench/tetris-cpp/build/_deps/raylib-src/src/external/glfw/src -I/Users/davidglogowski/jworkbench/tetris-cpp/build/_deps/raylib-build/raylib/external/glfw/src -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -std=c99 -arch arm64 -fPIC -Wall -o CMakeFiles/glfw.dir/nsgl_context.m.o -c /Users/davidglogowski/jworkbench/tetris-cpp/build/_deps/raylib-src/src/external/glfw/src/nsgl_context.m",
+  "file": "/Users/davidglogowski/jworkbench/tetris-cpp/build/_deps/raylib-src/src/external/glfw/src/nsgl_context.m",
+  "output": "_deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/nsgl_context.m.o"
 }
 ]

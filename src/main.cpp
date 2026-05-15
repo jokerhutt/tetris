@@ -1,4 +1,5 @@
 #include "game.h"
+#include "rlImGui.h"
 #include <raylib.h>
 
 int tick = 0;
@@ -7,7 +8,9 @@ int main() {
 
   Color darkBlue = {44, 44, 127, 255};
 
-  InitWindow(300, 600, "raylib Tetris");
+  InitWindow(300, 720, "raylib Tetris");
+  rlImGuiSetup(true);
+
   SetTargetFPS(60);
 
   Game game = Game();

@@ -2,7 +2,7 @@ CMakeFiles/tetris.dir/src/blocks.cpp.o: \
   /Users/davidglogowski/jworkbench/tetris-cpp/src/blocks.cpp \
   /Users/davidglogowski/jworkbench/tetris-cpp/src/block.h \
   /Users/davidglogowski/jworkbench/tetris-cpp/src/colors.h \
-  /opt/homebrew/include/raylib.h \
+  /Users/davidglogowski/jworkbench/tetris-cpp/build/_deps/raylib-src/src/raylib.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include/stdarg.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include/__stdarg_header_macro.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include/__stdarg___gnuc_va_list.h \

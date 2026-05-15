@@ -88,7 +88,7 @@ std::vector<Color> Grid::GetCellColors() {
   return {darkGrey, green, red, orange, yellow, purple, cyan, blue};
 };
 
-void Grid::Draw(bool isClearing) {
+void Grid::Draw(int offsetY, bool isClearing) {
   for (int row = 0; row < numRows; row++) {
     for (int col = 0; col < numCols; col++) {
       int cellValue = grid[row][col];
@@ -103,11 +103,11 @@ void Grid::Draw(bool isClearing) {
       bool flashWhite = (clearAnimationTick) % 2 != 1;
 
       if (isFull && flashWhite) {
-        DrawRectangle(col * cellSize + 1, row * cellSize + 1, cellSize - 1,
-                      cellSize - 1, Color(WHITE));
+        DrawRectangle(col * cellSize + 1, row * cellSize + 1 + offsetY,
+                      cellSize - 1, cellSize - 1, Color(WHITE));
       } else {
-        DrawRectangle(col * cellSize + 1, row * cellSize + 1, cellSize - 1,
-                      cellSize - 1, colors[cellValue]);
+        DrawRectangle(col * cellSize + 1, row * cellSize + 1 + offsetY,
+                      cellSize - 1, cellSize - 1, colors[cellValue]);
       }
     }
   }

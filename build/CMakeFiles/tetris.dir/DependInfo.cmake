@@ -15,6 +15,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/Users/davidglogowski/jworkbench/tetris-cpp/src/grid.cpp" "CMakeFiles/tetris.dir/src/grid.cpp.o" "gcc" "CMakeFiles/tetris.dir/src/grid.cpp.o.d"
   "/Users/davidglogowski/jworkbench/tetris-cpp/src/main.cpp" "CMakeFiles/tetris.dir/src/main.cpp.o" "gcc" "CMakeFiles/tetris.dir/src/main.cpp.o.d"
   "/Users/davidglogowski/jworkbench/tetris-cpp/src/position.cpp" "CMakeFiles/tetris.dir/src/position.cpp.o" "gcc" "CMakeFiles/tetris.dir/src/position.cpp.o.d"
+  "/Users/davidglogowski/jworkbench/tetris-cpp/src/ui.cpp" "CMakeFiles/tetris.dir/src/ui.cpp.o" "gcc" "CMakeFiles/tetris.dir/src/ui.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

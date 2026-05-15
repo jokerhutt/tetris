@@ -8,7 +8,7 @@ public:
   Grid();
   void Initialize();
   void Print();
-  void Draw(bool isClearing);
+  void Draw(int offsetY, bool isClearing);
   int clearAnimationTick;
   std::vector<int> rowsToClear;
   void PlaceBlock(std::vector<Position> positions, int colorId);

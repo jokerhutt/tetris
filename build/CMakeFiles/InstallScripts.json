@@ -1,7 +1,11 @@
 {
 	"InstallScripts" : 
 	[
-		"/Users/davidglogowski/jworkbench/tetris-cpp/build/cmake_install.cmake"
+		"/Users/davidglogowski/jworkbench/tetris-cpp/build/cmake_install.cmake",
+		"/Users/davidglogowski/jworkbench/tetris-cpp/build/_deps/raylib-build/cmake_install.cmake",
+		"/Users/davidglogowski/jworkbench/tetris-cpp/build/_deps/raylib-build/raylib/cmake_install.cmake",
+		"/Users/davidglogowski/jworkbench/tetris-cpp/build/_deps/raylib-build/raylib/external/glfw/cmake_install.cmake",
+		"/Users/davidglogowski/jworkbench/tetris-cpp/build/_deps/raylib-build/raylib/external/glfw/src/cmake_install.cmake"
 	],
 	"Parallel" : false
 }
